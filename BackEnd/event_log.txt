@@ -1,0 +1,2 @@
+2024-11-21T13:33:29.929149500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-11-21T14:26:44.308779700: Generated Event(Temperature sensor)

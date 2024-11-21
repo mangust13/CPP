@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/NULP/3-й курс/Кросплатформне програмування/Проект/cppteamlab/cppteamproject/src/main</OriginalElement>
+  <nodes>
+    <node x="1374.9602895148705" y="54.116310850370326">com.cppteam.cppteamproject.DTO.AddDeviceRequestDTO</node>
+    <node x="1250.9919796557115" y="2658.0">com.cppteam.cppteamproject.Domain.Building.Building</node>
+    <node x="1621.9126564945225" y="314.0874283614813">com.cppteam.cppteamproject.DTO.DeviceDTO</node>
+    <node x="1150.243935837249" y="2343.0">com.cppteam.cppteamproject.Domain.Building.Floor</node>
+    <node x="3255.7596830985904" y="34.0">com.cppteam.cppteamproject.DTO.UpdateDeviceRequestDTO</node>
+    <node x="1298.575312989045" y="3136.5">com.cppteam.cppteamproject.Repository.MongoDBBuildingRepository</node>
+    <node x="1232.4086463223784" y="1796.0">com.cppteam.cppteamproject.Domain.Building.Room</node>
+    <node x="1665.9919796557115" y="2368.0">com.cppteam.cppteamproject.DTO.BuildingDTO</node>
+    <node x="1426.4166666666665" y="3284.0">com.cppteam.cppteamproject.Controllers.BuildingController</node>
+    <node x="2797.0772691705824" y="409.0">com.cppteam.cppteamproject.DTO.AddSensorRequestDTO</node>
+    <node x="91.96801643192407" y="1893.0">com.cppteam.cppteamproject.DTO.ViolationEventDTO</node>
+    <node x="935.243935837249" y="2429.0">com.cppteam.cppteamproject.Controllers.LogController</node>
+    <node x="398.36966937600005" y="493.5023691662222">com.cppteam.cppteamproject.Domain.Sensors.MotionSensor</node>
+    <node x="1689.8175860719916" y="1453.0">com.cppteam.cppteamproject.DTO.UpdateRoomRequestDTO</node>
+    <node x="503.3333333333335" y="3106.0">com.cppteam.cppteamproject.Domain.Simulator.Simulator</node>
+    <node x="763.0" y="35.0">com.cppteam.cppteamproject.Domain.Devices.CoolingDevice</node>
+    <node x="2060.0772691705824" y="1941.0">com.cppteam.cppteamproject.DTO.FloorDTO</node>
+    <node x="259.3333333333335" y="3069.0">com.cppteam.cppteamproject.DTO.GenerateViolationDTO</node>
+    <node x="2660.5772691705824" y="3093.0">com.cppteam.cppteamproject.DTO.AddBuildingRequestDTO</node>
+    <node x="1959.8175860719916" y="1405.0">com.cppteam.cppteamproject.DTO.RoomDTO</node>
+    <node x="2408.5772691705824" y="3112.5887135766425">com.cppteam.cppteamproject.DTO.AddFloorRequestDTO</node>
+    <node x="593.8253129890452" y="806.0">com.cppteam.cppteamproject.Domain.Sensors.Sensor</node>
+    <node x="812.0" y="360.0">com.cppteam.cppteamproject.Domain.Devices.Device</node>
+    <node x="275.0" y="2343.0">com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem</node>
+    <node x="474.3333333333335" y="3609.0">com.cppteam.cppteamproject.Controllers.SimulatorController</node>
+    <node x="340.96801643192407" y="1477.0">com.cppteam.cppteamproject.Domain.Sensors.TemperatureSensor</node>
+    <node x="736.293622848204" y="1477.0">com.cppteam.cppteamproject.Domain.Shared.EventEntry</node>
+    <node x="609.793622848204" y="1916.0">com.cppteam.cppteamproject.Domain.Shared.EventLog</node>
+    <node x="993.0" y="9.0">com.cppteam.cppteamproject.Domain.Devices.CallDevice</node>
+    <node x="3053.0772691705824" y="409.0">com.cppteam.cppteamproject.DTO.UpdateSensorRequestDTO</node>
+    <node x="2227.825312989045" y="337.0">com.cppteam.cppteamproject.DTO.SensorDTO</node>
+    <node x="2285.0772691705824" y="1453.0">com.cppteam.cppteamproject.DTO.AddRoomRequestDTO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.Domain.Devices.CoolingDevice" relationship="CREATE">
+      <point x="-164.25" y="-154.5" />
+      <point x="-29.75" y="80.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.UpdateSensorRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="75.0" />
+      <point x="3183.5772691705824" y="3728.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.CallDevice" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-105.0" y="-98.0" />
+      <point x="297.46801643192407" y="17.5" />
+      <point x="297.46801643192407" y="1083.5" />
+      <point x="-206.0" y="15.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" target="com.cppteam.cppteamproject.DTO.ViolationEventDTO" relationship="CREATE">
+      <point x="-141.0" y="-130.5" />
+      <point x="76.53198356807593" y="129.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" target="com.cppteam.cppteamproject.Domain.Sensors.TemperatureSensor" relationship="DEPENDENCY">
+      <point x="-15.0" y="-130.5" />
+      <point x="-68.46801643192407" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.Domain.Sensors.MotionSensor" relationship="CREATE">
+      <point x="-198.5" y="-262.5" />
+      <point x="84.45564361304514" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.FloorDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="-60.0" />
+      <point x="2238.4106025039155" y="3593.5" />
+      <point x="80.33333333333303" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.DeviceDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="15.0" />
+      <point x="3410.7596830985904" y="3668.5" />
+      <point x="3410.7596830985904" y="319.5" />
+      <point x="88.5" y="-124.08742836148127" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.DTO.BuildingDTO" target="com.cppteam.cppteamproject.DTO.FloorDTO" relationship="TO_MANY">
+      <point x="0.0" y="-105.5" />
+      <point x="1760.4919796557115" y="2321.0" />
+      <point x="2223.4106025039155" y="2321.0" />
+      <point x="65.33333333333348" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.SimulatorController" target="com.cppteam.cppteamproject.Repository.MongoDBBuildingRepository" relationship="TO_ONE">
+      <point x="215.0" y="15.0" />
+      <point x="1408.9166666666665" y="3668.5" />
+      <point x="-24.658646322378445" y="14.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Building" target="com.cppteam.cppteamproject.DTO.FloorDTO" relationship="DEPENDENCY">
+      <point x="191.5" y="0.0" />
+      <point x="2143.0772691705824" y="2836.5" />
+      <point x="-15.0" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-15.0" y="44.5" />
+      <point x="674.3333333333335" y="3291.5" />
+      <point x="-82.0" y="3291.5" />
+      <point x="-82.0" y="1143.5" />
+      <point x="-206.0" y="75.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.AddBuildingRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="30.0" />
+      <point x="2782.5772691705824" y="3683.5" />
+      <point x="0.0" y="57.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="TO_MANY">
+      <point x="-148.5" y="0.0" />
+      <point x="55.46801643192407" y="2473.5" />
+      <point x="55.46801643192407" y="1113.5" />
+      <point x="-206.0" y="45.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.EventLog" target="com.cppteam.cppteamproject.Domain.Shared.EventEntry" relationship="CREATE">
+      <point x="141.0" y="-106.5" />
+      <point x="-41.0" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.UpdateRoomRequestDTO" relationship="DEPENDENCY">
+      <point x="201.0" y="-369.5" />
+      <point x="91.59908059467489" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.AddRoomRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="60.0" />
+      <point x="2391.0772691705824" y="3713.5" />
+      <point x="-7.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.Domain.Building.Floor" relationship="DEPENDENCY">
+      <point x="186.0" y="0.0" />
+      <point x="1233.4919796557115" y="3150.5" />
+      <point x="-112.75195618153748" y="130.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.Domain.Building.Room" relationship="DEPENDENCY">
+      <point x="108.0" y="-44.5" />
+      <point x="797.3333333333335" y="2146.5" />
+      <point x="-208.0" y="124.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.Domain.Building.Building" relationship="TO_ONE">
+      <point x="123.0" y="-44.5" />
+      <point x="812.3333333333335" y="2830.5" />
+      <point x="-191.5" y="-6.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.BuildingDTO" relationship="DEPENDENCY">
+      <point x="55.07531298904496" y="-369.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" relationship="DEPENDENCY">
+      <point x="-93.0" y="-44.5" />
+      <point x="596.3333333333335" y="3047.0" />
+      <point x="349.25" y="3047.0" />
+      <point x="-74.25" y="130.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" target="com.cppteam.cppteamproject.Domain.Shared.EventEntry" relationship="CREATE">
+      <point x="0.0" y="-130.5" />
+      <point x="423.5" y="1833.5" />
+      <point x="833.5053688196926" y="1833.5" />
+      <point x="-106.78825402851135" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Floor" target="com.cppteam.cppteamproject.Domain.Building.Room" relationship="TO_MANY">
+      <point x="94.16471048512949" y="-130.5" />
+      <point x="0.0" y="226.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Room" target="com.cppteam.cppteamproject.DTO.UpdateRoomRequestDTO" relationship="DEPENDENCY">
+      <point x="15.0" y="-226.5" />
+      <point x="1455.4086463223784" y="1558.5" />
+      <point x="-125.0" y="0.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-63.17468701095481" y="154.5" />
+      <point x="139.5" y="-262.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.DTO.UpdateSensorRequestDTO" relationship="DEPENDENCY">
+      <point x="206.0" y="15.0" />
+      <point x="3168.5772691705824" y="1083.5" />
+      <point x="-15.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.SensorDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="-15.0" />
+      <point x="3339.5772691705824" y="3638.5" />
+      <point x="3339.5772691705824" y="391.5" />
+      <point x="105.5" y="-123.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.SimulatorController" target="com.cppteam.cppteamproject.DTO.GenerateViolationDTO" relationship="DEPENDENCY">
+      <point x="-207.5" y="-44.5" />
+      <point x="110.5" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Domain.Building.Building" relationship="CREATE">
+      <point x="-78.92468701095504" y="-369.5" />
+      <point x="184.0" y="178.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Floor" target="com.cppteam.cppteamproject.DTO.FloorDTO" relationship="CREATE">
+      <point x="130.66666666666674" y="-130.5" />
+      <point x="1476.9106025039155" y="2301.0" />
+      <point x="2092.7439358372485" y="2301.0" />
+      <point x="-65.33333333333348" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.DTO.RoomDTO" target="com.cppteam.cppteamproject.DTO.SensorDTO" relationship="TO_MANY">
+      <point x="107.0" y="0.0" />
+      <point x="2248.5772691705824" y="1558.5" />
+      <point x="-84.74804381846252" y="177.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.UpdateDeviceRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="90.0" />
+      <point x="3425.7596830985904" y="3743.5" />
+      <point x="45.0" y="81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Repository.MongoDBBuildingRepository" target="com.cppteam.cppteamproject.Domain.Building.Building" relationship="DEPENDENCY">
+      <point x="8.916666666666515" y="-14.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.LogController" target="com.cppteam.cppteamproject.Domain.Shared.EventLog" relationship="DEPENDENCY">
+      <point x="0.0" y="-44.5" />
+      <point x="1032.743935837249" y="2022.5" />
+      <point x="148.5" y="0.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.RoomDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="-30.0" />
+      <point x="2292.5772691705824" y="3623.5" />
+      <point x="2292.5772691705824" y="1681.5" />
+      <point x="107.0" y="123.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.SimulatorController" target="com.cppteam.cppteamproject.Domain.Simulator.Simulator" relationship="CREATE">
+      <point x="0.0" y="-44.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.DTO.AddDeviceRequestDTO" relationship="DEPENDENCY">
+      <point x="190.5" y="0.0" />
+      <point x="1487.9602895148705" y="514.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Room" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="TO_MANY">
+      <point x="-200.5" y="-226.5" />
+      <point x="1239.9086463223784" y="1098.5" />
+      <point x="206.0" y="30.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.EventLog" target="com.cppteam.cppteamproject.Domain.Sensors.TemperatureSensor" relationship="DEPENDENCY">
+      <point x="-54.5" y="-106.5" />
+      <point x="703.793622848204" y="1558.5" />
+      <point x="136.0" y="0.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.EventLog" target="com.cppteam.cppteamproject.Domain.Shared.EventEntry" relationship="TO_MANY">
+      <point x="90.21174597148865" y="-112.9755076334286" />
+      <point x="848.5053688196926" y="1778.64866119816" />
+      <point x="849.5137416391298" y="1778.64866119816" />
+      <point x="-90.77988120907423" y="85.82244085463117" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Building" target="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" relationship="TO_ONE">
+      <point x="-191.5" y="-21.0" />
+      <point x="423.5" y="2815.5" />
+      <point x="0.0" y="130.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Domain.Devices.Device" relationship="DEPENDENCY">
+      <point x="-279.0" y="62.0" />
+      <point x="-52.0" y="3715.5" />
+      <point x="-52.0" y="476.0023691662222" />
+      <point x="-190.5" y="-38.497630833777805" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.DTO.DeviceDTO" relationship="CREATE">
+      <point x="190.5" y="30.0" />
+      <point x="-88.5" y="100.91257163851873" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Room" target="com.cppteam.cppteamproject.DTO.RoomDTO" relationship="CREATE">
+      <point x="208.0" y="0.0" />
+      <point x="2042.5772691705824" y="2022.5" />
+      <point x="-24.240316901409187" y="153.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.EventLog" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-39.5" y="-106.5" />
+      <point x="-81.03169014084119" y="262.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Domain.Building.Floor" relationship="CREATE">
+      <point x="-279.0" y="0.0" />
+      <point x="1218.4919796557115" y="3653.5" />
+      <point x="-127.75195618153748" y="130.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Building" target="com.cppteam.cppteamproject.Domain.Building.Floor" relationship="TO_MANY">
+      <point x="-96.24804381846252" y="-178.5" />
+      <point x="0.0" y="130.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Floor" target="com.cppteam.cppteamproject.DTO.RoomDTO" relationship="DEPENDENCY">
+      <point x="-150.74393583724896" y="-130.5" />
+      <point x="1195.5" y="1435.5" />
+      <point x="-107.0" y="-123.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.Domain.Devices.CallDevice" relationship="CREATE">
+      <point x="95.5" y="-154.5" />
+      <point x="0.0" y="106.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.Domain.Sensors.TemperatureSensor" relationship="CREATE">
+      <point x="-111.03169014084119" y="262.5" />
+      <point x="688.793622848204" y="1543.5" />
+      <point x="136.0" y="-15.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.CoolingDevice" target="com.cppteam.cppteamproject.Domain.Devices.Device" relationship="GENERALIZATION">
+      <point x="0.0" y="80.5" />
+      <point x="-134.5" y="-154.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.Domain.Devices.Device" relationship="TO_MANY">
+      <point x="-51.5" y="-262.5" />
+      <point x="748.3253129890452" y="734.0" />
+      <point x="907.25" y="734.0" />
+      <point x="-95.25" y="154.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Room" target="com.cppteam.cppteamproject.DTO.SensorDTO" relationship="DEPENDENCY">
+      <point x="-15.0" y="-226.5" />
+      <point x="1425.4086463223784" y="590.5874283614812" />
+      <point x="-105.5" y="76.08742836148122" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.CoolingDevice" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-105.0" y="0.0" />
+      <point x="312.46801643192407" y="115.5" />
+      <point x="312.46801643192407" y="1068.5" />
+      <point x="-206.0" y="0.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Domain.Building.Room" relationship="DEPENDENCY">
+      <point x="167.07531298904496" y="-369.5" />
+      <point x="1872.4919796557115" y="2037.5" />
+      <point x="208.0" y="15.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Simulator.Simulator" target="com.cppteam.cppteamproject.DTO.ViolationEventDTO" relationship="DEPENDENCY">
+      <point x="-5.28971048512949" y="-44.5" />
+      <point x="684.043622848204" y="2830.5" />
+      <point x="205.96801643192407" y="2830.5" />
+      <point x="0.0" y="129.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.TemperatureSensor" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="GENERALIZATION">
+      <point x="124.35729655712112" y="-81.5" />
+      <point x="-198.5" y="262.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Shared.ProcessingSystem" target="com.cppteam.cppteamproject.Domain.Shared.EventLog" relationship="TO_ONE">
+      <point x="148.5" y="-77.0" />
+      <point x="758.293622848204" y="2396.5" />
+      <point x="0.0" y="106.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.DTO.AddSensorRequestDTO" relationship="DEPENDENCY">
+      <point x="206.0" y="-15.0" />
+      <point x="2897.0772691705824" y="1053.5" />
+      <point x="-18.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="DEPENDENCY">
+      <point x="-279.0" y="77.0" />
+      <point x="-67.0" y="3730.5" />
+      <point x="-67.0" y="1128.5" />
+      <point x="-206.0" y="60.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.DTO.FloorDTO" target="com.cppteam.cppteamproject.DTO.RoomDTO" relationship="TO_MANY">
+      <point x="-90.5" y="-81.5" />
+      <point x="0.7596830985908127" y="153.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.DTO.SensorDTO" target="com.cppteam.cppteamproject.DTO.DeviceDTO" relationship="TO_MANY">
+      <point x="-105.5" y="-70.91257163851873" />
+      <point x="88.5" y="0.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.AddSensorRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="45.0" />
+      <point x="2922.0772691705824" y="3698.5" />
+      <point x="7.0" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.DTO.DeviceDTO" relationship="DEPENDENCY">
+      <point x="-206.0" y="30.0" />
+      <point x="282.46801643192407" y="1098.5" />
+      <point x="282.46801643192407" y="-61.5" />
+      <point x="1710.4126564945225" y="-61.5" />
+      <point x="0.0" y="-129.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.Device" target="com.cppteam.cppteamproject.DTO.UpdateDeviceRequestDTO" relationship="DEPENDENCY">
+      <point x="190.5" y="-15.0" />
+      <point x="1239.9086463223784" y="499.5" />
+      <point x="1239.9086463223784" y="-31.5" />
+      <point x="3380.7596830985904" y="-31.5" />
+      <point x="0.0" y="-81.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.SimulatorController" target="com.cppteam.cppteamproject.DTO.ViolationEventDTO" relationship="DEPENDENCY">
+      <point x="-215.0" y="0.0" />
+      <point x="190.96801643192407" y="3653.5" />
+      <point x="-15.0" y="129.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.Repository.MongoDBBuildingRepository" relationship="TO_ONE">
+      <point x="-256.84135367762156" y="-369.5" />
+      <point x="15.0" y="14.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.AddFloorRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="105.0" />
+      <point x="2519.0772691705824" y="3758.5" />
+      <point x="0.0" y="37.91128642335798" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.DTO.AddFloorRequestDTO" target="com.cppteam.cppteamproject.Controllers.BuildingController" relationship="DEPENDENCY">
+      <point x="-15.0" y="37.91128642335798" />
+      <point x="2504.0772691705824" y="3608.5" />
+      <point x="279.0" y="-45.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Devices.CallDevice" target="com.cppteam.cppteamproject.Domain.Devices.Device" relationship="GENERALIZATION">
+      <point x="-80.5" y="106.5" />
+      <point x="15.0" y="-154.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.MotionSensor" target="com.cppteam.cppteamproject.Domain.Sensors.Sensor" relationship="GENERALIZATION">
+      <point x="-7.674687010954813" y="81.5" />
+      <point x="509.19498236504523" y="1053.5" />
+      <point x="-206.0" y="-15.0" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Building" target="com.cppteam.cppteamproject.DTO.BuildingDTO" relationship="CREATE">
+      <point x="127.66666666666674" y="-178.5" />
+      <point x="1570.1586463223784" y="2636.0" />
+      <point x="1713.2419796557115" y="2636.0" />
+      <point x="-47.25" y="105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Controllers.BuildingController" target="com.cppteam.cppteamproject.DTO.AddDeviceRequestDTO" relationship="DEPENDENCY">
+      <point x="279.0" y="0.0" />
+      <point x="3395.7596830985904" y="3653.5" />
+      <point x="3395.7596830985904" y="214.5" />
+      <point x="113.0" y="54.883689149629674" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Building.Room" target="com.cppteam.cppteamproject.DTO.AddRoomRequestDTO" relationship="DEPENDENCY">
+      <point x="-30.0" y="-226.5" />
+      <point x="1410.4086463223784" y="1323.5" />
+      <point x="2398.0772691705824" y="1323.5" />
+      <point x="0.0" y="-105.5" />
+    </edge>
+    <edge source="com.cppteam.cppteamproject.Domain.Sensors.Sensor" target="com.cppteam.cppteamproject.DTO.SensorDTO" relationship="CREATE">
+      <point x="154.5" y="-262.5" />
+      <point x="954.3253129890452" y="686.5" />
+      <point x="-105.5" y="172.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.32495917549913794" showDependencies="true" x="1735.0867780304652" y="2454.5697032628054" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
