@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.CompletableFuture;
+
 @CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 public class SimulatorController {
@@ -20,13 +22,25 @@ public class SimulatorController {
     @PostMapping("/Simulator")
     public ResponseEntity<?> simulateViolation(@RequestBody GenerateViolationDTO violationData) {
         String id = violationData.getBuildingId();
-        var buildingOptional = repository.findById(violationData.getBuildingId());
+        var buildingOptional = repository.findById(id);
         if (buildingOptional.isEmpty()) {
-            return new ResponseEntity<>("Building " + violationData.getBuildingId() + " is not present",
+            return new ResponseEntity<>("Building " + id + " is not present",
                     HttpStatus.NOT_FOUND);
         }
+
         var simulator = new Simulator(buildingOptional.get());
-        var violation = simulator.simulateViolations(violationData.getFloorId());
-        return new ResponseEntity<>(violation, HttpStatus.OK);
+        try {
+            var violationFuture = CompletableFuture.supplyAsync(() ->
+                    simulator.simulateViolations(violationData.getFloorId())
+            );
+
+            var violation = violationFuture.get();
+
+            return new ResponseEntity<>(violation, HttpStatus.OK);
+
+        } catch (Exception e) {
+            return new ResponseEntity<>("Error during simulation: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 }
+

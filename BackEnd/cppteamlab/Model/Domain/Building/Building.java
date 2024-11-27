@@ -20,5 +20,4 @@ public class Building {
     public ProcessingSystem getProcessingSystem(){
         return processingSystem;
     }
-
 }
