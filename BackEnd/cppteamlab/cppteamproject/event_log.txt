@@ -1,4 +1,0 @@
-2023-12-13T13:47:36.476707200: Generated Event(Temperature sensor): Turning on cooling system due to sensor 65762b4c1c590329909a9e0b
-2023-12-13T13:47:44.935005100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 65762b4c1c590329909a9e0b
-2023-12-13T13:47:46.802357400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 65762b4c1c590329909a9e0b
-2023-12-13T13:47:48.098258600: Generated Event(Motion sensor): Calling null due to sensor 65762b351c590329909a9db6, Calling null due to sensor 65762b351c590329909a9db6, Calling 0005 due to sensor 65762b351c590329909a9db6, Calling 6135234234 due to sensor 65762b351c590329909a9db6, Calling 0005 due to sensor 65762b351c590329909a9db6

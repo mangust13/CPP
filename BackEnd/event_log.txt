@@ -1,38 +1,87 @@
-2024-11-27T23:32:44.734328900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:39:39.668485400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:41:01.595559400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:41:59.684006400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:44:44.527049300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:49:26.571290600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:55:25.171983100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:55:58.040581600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:56:09.657422: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:56:34.789858600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:57:45.717786300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:58:35.937685700: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-27T23:59:09.265680100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-27T23:59:20.609791300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:02:03.668535800: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:03:00.081475500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:03:56.324012600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:04:09.947325300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:06:23.602853300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:07:51.667463400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:10:49.784055: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:11:53.804898: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:14:47.224801: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:14:56.683828100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:15:28.860276: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:16:57.035070: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:17:19.665056600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:18:08.602179200: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:18:19.014353500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:20:02.641083800: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:20:02.642078400: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:20:12.671190500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
-2024-11-28T00:20:12.672200700: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
-2024-11-28T00:20:19.778140: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
-2024-11-28T00:20:33.830346100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:21:33.397099900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
-2024-11-28T00:21:33.398250300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
-2024-11-28T00:22:24.023943500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-11-28T14:21:38.900406500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T19:26:21.382492700: Generated Event(Motion sensor): Calling 911 due to sensor 674856ac4b2af54f49c22fcd
+2024-12-01T19:29:28.397241700: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T19:29:28.398271900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T19:29:28.398271900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T19:34:01.936807900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T19:34:01.938131700: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T19:59:21.126258800: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T19:59:50.411074900: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:01:33.352622600: Generated Event(Motion sensor)
+2024-12-01T20:01:33.353719300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
+2024-12-01T20:04:20.324001: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
+2024-12-01T20:04:20.324001: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:04:57.852710600: Generated Event(Temperature sensor)
+2024-12-01T20:04:57.854115300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
+2024-12-01T20:05:08.839738500: Generated Event(Motion sensor)
+2024-12-01T20:05:08.839738500: Generated Event(Temperature sensor)
+2024-12-01T20:05:08.840766200: Generated Event(Temperature sensor)
+2024-12-01T20:05:08.840766200: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:05:08.840766200: Generated Event(Temperature sensor)
+2024-12-01T20:05:08.840766200: Generated Event(Temperature sensor)
+2024-12-01T20:05:16.075211400: Generated Event(Temperature sensor)
+2024-12-01T20:05:16.076437100: Generated Event(Motion sensor)
+2024-12-01T20:05:16.076437100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:05:16.076437100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:05:16.076437100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:05:22.311018200: Generated Event(Temperature sensor)
+2024-12-01T20:05:22.312025600: Generated Event(Temperature sensor)
+2024-12-01T20:05:22.312025600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:05:22.312025600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
+2024-12-01T20:05:28.641656400: Generated Event(Motion sensor)
+2024-12-01T20:05:28.643256300: Generated Event(Temperature sensor)
+2024-12-01T20:05:28.643256300: Generated Event(Temperature sensor)
+2024-12-01T20:05:28.643256300: Generated Event(Temperature sensor)
+2024-12-01T20:05:28.643256300: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:05:35.883858500: Generated Event(Temperature sensor)
+2024-12-01T20:05:35.883858500: Generated Event(Temperature sensor)
+2024-12-01T20:05:35.883858500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:05:35.884857: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:05:35.885851800: Generated Event(Motion sensor)
+2024-12-01T20:10:21.704235700: Generated Event(Temperature sensor)
+2024-12-01T20:10:21.705234500: Generated Event(Temperature sensor)
+2024-12-01T20:10:21.705234500: Generated Event(Temperature sensor)
+2024-12-01T20:10:27.414754500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:10:27.414754500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 67479acc7b9e3244c1fea413
+2024-12-01T20:10:27.414754500: Generated Event(Motion sensor)
+2024-12-01T20:10:27.415839700: Generated Event(Temperature sensor)
+2024-12-01T20:11:03.185713400: Generated Event(Motion sensor)
+2024-12-01T20:11:03.186710100: Generated Event(Motion sensor)
+2024-12-01T20:11:03.186710100: Generated Event(Temperature sensor)
+2024-12-01T20:11:08.795838600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:11:08.795838600: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91f6bb3f366f8fe02eb4
+2024-12-01T20:11:08.796848800: Generated Event(Temperature sensor)
+2024-12-01T20:11:08.796848800: Generated Event(Motion sensor)
+2024-12-01T20:11:08.796848800: Generated Event(Motion sensor)
+2024-12-01T20:11:08.796848800: Generated Event(Temperature sensor)
+2024-12-01T20:16:06.300268100: Generated Event(Motion sensor): Calling 911 due to sensor 674856ac4b2af54f49c22fcd
+2024-12-01T20:16:12.563055500: Generated Event(Motion sensor)
+2024-12-01T20:16:12.563055500: Generated Event(Temperature sensor): Turning on cooling system due to sensor 674856c24b2af54f49c22fe0
+2024-12-01T20:16:18.053801200: Generated Event(Temperature sensor): Turning on cooling system due to sensor 674856c24b2af54f49c22fe0
+2024-12-01T20:16:18.053801200: Generated Event(Temperature sensor)
+2024-12-01T20:16:23.612645800: Generated Event(Motion sensor): Calling 911 due to sensor 674856ac4b2af54f49c22fcd
+2024-12-01T20:16:23.613983700: Generated Event(Motion sensor)
+2024-12-01T20:16:23.613983700: Generated Event(Temperature sensor)
+2024-12-01T20:16:23.613983700: Generated Event(Motion sensor)
+2024-12-01T20:16:23.613983700: Generated Event(Temperature sensor)
+2024-12-01T20:16:29.161557100: Generated Event(Motion sensor)
+2024-12-01T20:16:29.162574: Generated Event(Motion sensor)
+2024-12-01T20:16:36.491776900: Generated Event(Temperature sensor)
+2024-12-01T20:16:42.138304: Generated Event(Motion sensor)
+2024-12-01T20:16:42.138304: Generated Event(Motion sensor): Calling 911 due to sensor 674857eb4b2af54f49c2308a
+2024-12-01T20:16:42.139303100: Generated Event(Temperature sensor)
+2024-12-01T20:37:17.431949: Generated Event(Motion sensor)
+2024-12-01T20:37:17.433028100: Generated Event(Temperature sensor): Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5, Turning on cooling system due to sensor 673e91fbbb3f366f8fe02ec5
+2024-12-01T20:37:58.893059400: Generated Event(Motion sensor)
+2024-12-01T20:40:15.575354400: Generated Event(Temperature sensor)
+2024-12-01T20:40:15.575354400: Generated Event(Motion sensor)
+2024-12-01T20:40:21.528999800: Generated Event(Temperature sensor)
+2024-12-01T20:40:21.530192800: Generated Event(Motion sensor)
+2024-12-01T20:40:29.781246400: Generated Event(Temperature sensor)
+2024-12-01T20:40:29.781246400: Generated Event(Motion sensor)
+2024-12-01T20:40:29.781246400: Generated Event(Temperature sensor)
+2024-12-01T20:40:29.781246400: Generated Event(Temperature sensor)
+2024-12-01T20:43:40.989710800: Generated Event(Temperature sensor)
+2024-12-01T20:43:46.858287300: Generated Event(Temperature sensor)
+2024-12-01T20:43:52.618247800: Generated Event(Temperature sensor)
+2024-12-01T20:43:52.618247800: Generated Event(Motion sensor)

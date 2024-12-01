@@ -1,6 +1,4 @@
 package com.cppteam.cppteamproject.Domain.Devices;
-
-
 import com.cppteam.cppteamproject.DTO.ViolationEventDTO;
 import com.cppteam.cppteamproject.Domain.Sensors.Sensor;
 import lombok.EqualsAndHashCode;
